@@ -21,7 +21,7 @@ let cooldown = await cooldowns.addCoolDown("398314054147637248", 60000 * 60 * 24
 
 // Check 
 let cooldown = await cooldowns.checkCoolDown("398314054147637248", "daily")
-/* Output: 
+/* Output: */
 {
     ready: false, // if the cooldown is over
     time: milliseconds, // time remaining in milliseconds
