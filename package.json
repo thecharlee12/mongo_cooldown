@@ -1,16 +1,21 @@
 {
   "name": "mongo-cooldown",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "description": "A method of storing cooldowns with mongodb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "mongodb"
+    "mongodb",
+    "discord",
+    "commands",
+    "command",
+    "cooldown"
   ],
   "author": "charlee",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "thecharlee12/mongo_cooldown",
   "dependencies": {
     "moment": "^2.29.1",
     "mongoose": "^6.2.4"
