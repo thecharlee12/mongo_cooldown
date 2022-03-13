@@ -4,7 +4,7 @@ module.exports = {
     addCoolDown: async function(userID, time, command) {
         if(typeof userID !== "string") throw new TypeError("Invalid user ID was provided. Needs to be a string");
         if(typeof command !== "string") throw new TypeError("Invalid command was provided. Needs to be a string.");
-        if(!typeof time !== "number") throw new TypeError("Invalid time was provided. Needs to be a number in milliseconds.");
+        if(typeof time !== "number") throw new TypeError("Invalid time was provided. Needs to be a number in milliseconds.");
 
         if(isNaN(time)) return console.error("Time supplied is not a number");
 
