@@ -18,6 +18,6 @@
   "repository": "thecharlee12/mongo_cooldown",
   "dependencies": {
     "moment": "^2.29.1",
-    "mongoose": "^6.2.4"
+    "mongoose": "^6.7.3"
   }
 }
